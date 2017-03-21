@@ -1,3 +1,7 @@
-<h1>
+<div class="c1">
   {{title}}
-</h1>
+
+  <input [(ngModel)]="inputValue"/>
+
+  <app-some-comp [anArg]="inputValue"></app-some-comp>
+</div>

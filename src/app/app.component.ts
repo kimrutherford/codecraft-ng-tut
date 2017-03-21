@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  inputValue = "initial value";
+
+  title = 'works!';
+
+
+  test() {
+    this.title = "fwhuiefh";
+  
+    let newval = this.title;
+
+  }
 }
